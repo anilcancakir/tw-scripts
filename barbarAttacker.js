@@ -132,6 +132,6 @@ function smartBirimler() {
 }
 
 function bitir(m = 'Hata var') {
-  alert(m);
+  console.error(m);
   throw Error(m);
 }
