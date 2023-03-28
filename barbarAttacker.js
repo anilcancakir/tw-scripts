@@ -1,4 +1,5 @@
 // noinspection JSUnresolvedVariable
+
 (function () {
   const birimler = [
     {
@@ -22,6 +23,26 @@
       canAttackAlone: false,
     },
     {
+      name: 'Haffi Atli',
+      inputEl: '#unit_input_light',
+      countEl: '#units_entry_all_light',
+      attackPower: 130,
+      unit: 5,
+      t: 5,
+      current: null,
+      canAttackAlone: true,
+    },
+    {
+      name: 'Baltaci',
+      inputEl: '#unit_input_axe',
+      countEl: '#units_entry_all_axe',
+      attackPower: 40,
+      unit: 15,
+      t: 9,
+      current: null,
+      canAttackAlone: true,
+    },
+    {
       name: 'Kilic Ustasi',
       inputEl: '#unit_input_sword',
       countEl: '#units_entry_all_sword',
@@ -41,26 +62,6 @@
       current: null,
       canAttackAlone: true,
     },
-    {
-      name: 'Baltaci',
-      inputEl: '#unit_input_axe',
-      countEl: '#units_entry_all_axe',
-      attackPower: 40,
-      unit: 15,
-      t: 9,
-      current: null,
-      canAttackAlone: true,
-    },
-    {
-      name: 'Haffi Atli',
-      inputEl: '#unit_input_light',
-      countEl: '#units_entry_all_light',
-      attackPower: 130,
-      unit: 5,
-      t: 5,
-      current: null,
-      canAttackAlone: true,
-    }
   ];
 
   birimler.forEach((birim, i) => {
