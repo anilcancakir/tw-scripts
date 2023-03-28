@@ -133,5 +133,7 @@ function smartBirimler() {
 
 function bitir(m = 'Hata var') {
   console.error(m);
+  
+  window.location.reload();
   throw Error(m);
 }
