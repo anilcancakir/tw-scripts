@@ -98,7 +98,7 @@ targets.forEach(target => {
 
   setTimeout(() => {
     $('#target_attack').click();
-  }, 1000);
+  }, 250);
 
   throw Error('Saldirdik');
 });
