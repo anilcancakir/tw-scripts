@@ -39,7 +39,7 @@ villages.forEach(v => {
   }
 })
 
-targets = targets.sort((a, b) => { return a.distance - b.distance; });
+targets = targets.sort((a, b) => { return b.distance - a.distance; });
 
 function getDistance(end, start) {
   return Math.hypot(end.x - start.x, end.y - start.y);
