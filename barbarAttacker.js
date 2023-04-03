@@ -13,6 +13,16 @@
       canAttackAlone: false,
     },
     {
+      name: 'Haffi Atli',
+      inputEl: '#unit_input_light',
+      countEl: '#units_entry_all_light',
+      attackPower: 130,
+      unit: 1,
+      t: 5,
+      current: null,
+      canAttackAlone: true,
+    },
+    {
       name: 'Sovalye',
       inputEl: '#unit_input_knight',
       countEl: '#units_entry_all_knight',
@@ -21,16 +31,6 @@
       t: 5,
       current: null,
       canAttackAlone: false,
-    },
-    {
-      name: 'Haffi Atli',
-      inputEl: '#unit_input_light',
-      countEl: '#units_entry_all_light',
-      attackPower: 130,
-      unit: 5,
-      t: 5,
-      current: null,
-      canAttackAlone: true,
     },
     {
       name: 'Baltaci',
